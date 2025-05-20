@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --dark-blue: #18236B;
+    --dark-green: #13432B;
+    --dark-red: #C9512F;
+    --dark-yelow: #FCC002;
+    --ligth-green: #07743D;
+    --light-blue: #0687C0;
+}
+* {
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif ;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

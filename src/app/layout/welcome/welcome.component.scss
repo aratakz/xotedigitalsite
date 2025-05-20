@@ -1,0 +1,43 @@
+.containner {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(90deg, var(--dark-yelow) 75%, #FFFFFF, );
+    justify-content: space-around;
+    align-items: flex-start;
+
+    img {
+        align-self: center;
+        height: 350px;
+    }
+}
+
+.wellcome-text-containner {
+    padding: 100px 30px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.know-btn {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background: #000000;
+    padding: 10px 5px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.presentation-text {
+    width: 70%;
+}
