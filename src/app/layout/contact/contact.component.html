@@ -2,20 +2,20 @@
     <div class="side left" id="left-side">
         <div class="title">Contato</div>
         <div>
-            <input type="text" placeholder="E-mail*:">
+            <input [(ngModel)]="email" type="text" placeholder="Seu melhor e-mail*:">
         </div>
         <div>
-            <textarea placeholder="Descrição:"></textarea>
+            <textarea [(ngModel)]="subject" placeholder="Conte-nos um pouco sobre a sua idéia:"></textarea>
         </div>
         <div>
-            <button>Enviar</button>      
+            <button (click)="sendEmail()">Enviar</button>
         </div>
     </div>
     <div class="side">
         <img src="./assets/logo.png" alt="">
         <div class="x-link">
-            <i class="fa-brands fa-instagram"></i> xotedigital.oficial       
+            <i class="fa-brands fa-instagram"></i> xotedigital.oficial
         </div>
-        
+
     </div>
 </div>

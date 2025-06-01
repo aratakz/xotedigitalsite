@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+html {
+  overflow-x: hidden;
+  position: relative;
+  //left: 76px;
+}
 :root {
     --dark-blue: #18236B;
     --dark-green: #13432B;
@@ -11,7 +15,6 @@
 }
 * {
     box-sizing: border-box;
-
     font-family: 'Roboto', sans-serif ;
 }
 body {

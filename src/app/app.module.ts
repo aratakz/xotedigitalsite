@@ -11,6 +11,7 @@ import { StackComponent } from './layout/stack/stack.component';
 import { ProductComponent } from './layout/product/product.component';
 import { ContactComponent } from './layout/contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
