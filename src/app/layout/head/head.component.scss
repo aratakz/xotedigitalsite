@@ -1,11 +1,14 @@
 $colors: red, orange, yellow, green, blue, purple;
 $repeat: 20; // How often you want the pattern to repeat.
-
 .navbar {
   width: 100%;
   display: flex;
   height: 78px;
   padding: 10px;
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255, 0.5);
+  backdrop-filter: blur(5px);
   align-items: center;
   justify-content: flex-start;
   gap: 5px;
