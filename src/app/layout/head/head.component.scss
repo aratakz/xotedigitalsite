@@ -12,7 +12,7 @@ $repeat: 20; // How often you want the pattern to repeat.
   align-items: center;
   justify-content: flex-start;
   gap: 5px;
-
+  z-index: 999;
   .nav-item {
     font-size: 20px;
     padding: 10px;
